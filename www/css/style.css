@@ -1,0 +1,155 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #868585;
+    background: #fdfcfb;
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    margin: 150px 0 80px;
+}
+
+.menu {
+    background: #fefefe;
+    border: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 19);
+    padding: 15px 0 15px 0;
+}
+
+.navbar-brand {
+    padding-right: 80px;
+}
+
+.navbar-brand img {
+    position: relative;
+    top: -48px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #8d8c8c;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav:not(.icons) > li > a:hover {
+    border-bottom: 1px solid #d42819;
+    color: #8d8c8c;
+}
+
+.navbar-default .navbar-nav:not(.icons) > li > a:focus {
+    border-bottom: 1px solid #d42819;
+    color: #8d8c8c;
+}
+
+.menu .container {
+    position: relative;
+}
+
+.icons li a {
+    padding: 15px 5px;
+}
+
+.globe {
+    font-size: 25px;
+    line-height: 50px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    color: #d0cfce;
+    display: none;
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media screen and (max-width: 992px) {
+    .navbar-brand {
+        padding: 10px;
+    }
+    .icons {
+        display: none;
+        position: absolute;
+        right: 30px;
+        top: 60px;
+    }
+    .icons > li {
+        float: none;
+    }
+    .icons li a {
+        padding: 5px;
+    }
+    .globe {
+        display: block;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media screen and (max-width: 767px) {
+    .menu {
+        padding: 0;
+    }
+    .globe {
+        display: none;
+    }
+    .navbar-brand img {
+        max-height: 70px;
+        top: -20px;
+    }
+    .navbar-nav:not(.icons) > li > a {
+        transition: all 0.5s;
+        text-align: center;
+    }
+    .navbar-default .navbar-nav:not(.icons) > li > a {
+        border-bottom: 0;
+    }
+    .navbar-default .navbar-nav:not(.icons) > li > a:focus {
+        border-bottom: 0;
+        color: #fff;
+        background: #d42819;
+    }
+    .navbar-default .navbar-nav:not(.icons) > li > a:hover {
+        border-bottom: 0;
+        color: #fff;
+        background: #d42819
+    }
+    .icons{
+        display:block!important;
+        position: relative;
+        right: 0;
+        top: 0;
+        text-align: center;
+        
+    }
+    .icons li {
+        display: inline-block;
+        
+        
+    }
+    .navbar-default .navbar-toggle {
+        margin-right: 20px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (min-width: 993px) {
+    .icons {
+        display: block !important;
+    }
+}
