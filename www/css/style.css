@@ -12,7 +12,7 @@ img {
 }
 
 header {
-    margin: 150px 0 80px;
+    margin: 110px 0 50px;
 }
 
 .menu {
@@ -28,7 +28,7 @@ header {
 
 .navbar-brand img {
     position: relative;
-    top: -48px;
+    top: -42px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -38,12 +38,12 @@ header {
 }
 
 .navbar-default .navbar-nav:not(.icons) > li > a:hover {
-    border-bottom: 1px solid #d42819;
+    border-bottom: 1px solid #78769d;
     color: #8d8c8c;
 }
 
 .navbar-default .navbar-nav:not(.icons) > li > a:focus {
-    border-bottom: 1px solid #d42819;
+    border-bottom: 1px solid #78769d;
     color: #8d8c8c;
 }
 
@@ -51,24 +51,43 @@ header {
     position: relative;
 }
 
+/*
 .icons li a {
     padding: 15px 5px;
 }
+*/
 
 .globe {
     font-size: 25px;
     line-height: 50px;
     position: absolute;
-    right: 20px;
+    right: 0px;
     cursor: pointer;
     color: #d0cfce;
     display: none;
+    
+}
+.icons{
+    right: 1px !important;
+  
+}
+
+.slogan>h1 {
+    text-align: center;
+}
+
+.card {
+    text-align: center;
 }
 
 
 /* Large Devices, Wide Screens */
 
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+    .card {
+        text-align: center;
+    }
+}
 
 
 /* Medium Devices, Desktops */
@@ -91,6 +110,9 @@ header {
     }
     .globe {
         display: block;
+    }
+    .card {
+        text-align: center;
     }
 }
 
@@ -118,36 +140,63 @@ header {
     .navbar-default .navbar-nav:not(.icons) > li > a:focus {
         border-bottom: 0;
         color: #fff;
-        background: #d42819;
+        background: #78769d;
     }
     .navbar-default .navbar-nav:not(.icons) > li > a:hover {
         border-bottom: 0;
         color: #fff;
-        background: #d42819
+        background: #78769d
     }
-    .icons{
-        display:block!important;
+    .icons {
+        display: block!important;
         position: relative;
         right: 0;
         top: 0;
         text-align: center;
-        
     }
     .icons li {
         display: inline-block;
-        
-        
     }
     .navbar-default .navbar-toggle {
         margin-right: 20px;
     }
+    .card {
+        text-align: center;
+        margin: 0 auto;
+    }
+        .slogan h1{
+        font-size: 2em;
+    }
+    header{
+       margin: 25px 0 10px;
+    
+    }
+    .navbar-brand img {
+    top: -20px;
+}
 }
 
 
 /* Extra Small Devices, Phones */
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+    .card {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .slogan h1{
+        font-size: 2em;
+    }
+    header{
+       margin: 25px 0 10px;
+    }
+    .navbar-brand img {
+    top: -20px;
+}
+}
 
+
+}
 @media screen and (min-width: 993px) {
     .icons {
         display: block !important;
