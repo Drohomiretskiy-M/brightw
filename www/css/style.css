@@ -65,18 +65,58 @@ header {
     right: 6px !important;
 }
 
+.icons a img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 70);
+}
+
 .slogan>h1 {
     text-align: center;
 }
 
 .card {
     text-align: center;
+    margin: 5px;
+    border: 1px solid #78769d;
+    padding: 5px;
+}
+
+.card img {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 19);
+}
+
+.card img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 70);
+    transition: all 0.5s;
+}
+
+.nav-pager {
+    text-align: center;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #b5b3b3;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    color: #78769d;
+    background-color: #fff;
+    border: 1px solid #78769d;
+}
+
+.copyrigt {
+    text-align: center;
 }
 
 @media only screen and (max-width: 1200px) {
-     .slogan h1 {
-        font-size: 4em;
-    }   
+    .slogan h1 {
+        font-size: 2.5em;
+    }
     .card {
         text-align: center;
     }
@@ -102,21 +142,19 @@ header {
 }
 
 @media screen and (max-width: 992px) {
-     .slogan h1 {
-        font-size: 3em;
+    .slogan h1 {
+        font-size: 2.25em;
     }
     .card {
         text-align: center;
     }
-  
     .globe {
         right: 0px;
     }
 }
 
-
 @media screen and (max-width: 767px) {
-     .slogan h1 {
+    .slogan h1 {
         font-size: 2em;
     }
     .menu {
@@ -161,27 +199,31 @@ header {
     }
     .card {
         text-align: center;
-        margin: 0 auto;
     }
-  
     header {
         margin: 50px 0 10px;
     }
     .navbar-brand img {
         top: -20px;
     }
+    .card {
+        text-align: center;
+        margin: 5px;
+        border: 1px solid #78769d;
+        padding-bottom: 10px;
+    }
 }
 
-
 @media screen and (max-width: 480px) {
-     .slogan h1 {
+    .slogan h1 {
         font-size: 1.5em;
     }
     .card {
         text-align: center;
-        margin: 0 auto;
+        margin: 5px;
+        border: none;
+        padding: 5px;
     }
-   
     header {
         margin: 25px 0 10px;
     }
@@ -189,17 +231,16 @@ header {
         top: -20px;
     }
 }
+
+
 }
-
-
 @media screen and (min-width: 993px) {
     .icons {
         display: block !important;
     }
-     
 }
 @media only screen and (min-width: 1200px) {
-     .slogan h1 {
-        font-size: 4em;
+    .slogan h1 {
+        font-size: 3em;
     }
-
+}
