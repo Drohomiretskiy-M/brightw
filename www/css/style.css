@@ -22,6 +22,10 @@ header {
     padding: 15px 0 15px 0;
 }
 
+.menu .container {
+    position: relative;
+}
+
 .navbar-brand {
     padding-right: 80px;
 }
@@ -37,19 +41,12 @@ header {
     text-transform: uppercase;
 }
 
-.navbar-default .navbar-nav:not(.icons) > li > a:hover {
+.navbar-default .navbar-nav:not(.icons) > li > a:hover, .navbar-default .navbar-nav:not(.icons) > li > a:focus {
     border-bottom: 1px solid #78769d;
     color: #8d8c8c;
 }
 
-.navbar-default .navbar-nav:not(.icons) > li > a:focus {
-    border-bottom: 1px solid #78769d;
-    color: #8d8c8c;
-}
 
-.menu .container {
-    position: relative;
-}
 
 .globe {
     font-size: 25px;
