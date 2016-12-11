@@ -26,28 +26,28 @@ get_header(); ?>
                         <div class="card">
                             <h4>Lorem ipsum.</h4>
                             <p>29.12.2016</p>
-                            <a href="#"><img src="/img/photo/1.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/photo/1.jpg" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ">
                         <div class="card">
                             <h4>Lorem ipsum.</h4>
                             <p>29.12.2016</p>
-                            <a href="#"><img src="/img/photo/2.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/photo/2.jpg" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ">
                         <div class="card">
                             <h4>Lorem ipsum.</h4>
                             <p>29.12.2016</p>
-                            <a href="#"><img src="/img/photo/3.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/photo/3.jpg" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ">
                         <div class="card">
                             <h4>Lorem ipsum.</h4>
                             <p>29.12.2016</p>
-                            <a href="#"><img src="/img/photo/4.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/photo/4.jpg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -56,28 +56,28 @@ get_header(); ?>
                         <div class="card">
                             <h4>Lorem ipsum.</h4>
                             <p>29.12.2016</p>
-                            <a href="#"><img src="/img/photo/5.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/photo/5.jpg" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
                         <div class="card">
                             <h4>Lorem ipsum.</h4>
                             <p>9.12.2016</p>
-                            <a href="#"><img src="/img/photo/6.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/photo/6.jpg" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
                         <div class="card">
                             <h4>Lorem ipsum.</h4>
                             <p>29.11.2016</p>
-                            <a href="#"><img src="/img/photo/8.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/photo/8.jpg" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
                         <div class="card">
                             <h4>Lorem ipsum.</h4>
                             <p>19.10.2016</p>
-                            <a href="#"><img src="/img/photo/4.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/photo/4.jpg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -86,28 +86,28 @@ get_header(); ?>
                         <div class="card">
                             <h4>Lorem ipsum.</h4>
                             <p>29.12.2016</p>
-                            <a href="#"><img src="/img/photo/5.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/photo/5.jpg" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
                         <div class="card">
                             <h4>Lorem ipsum.</h4>
                             <p>9.12.2016</p>
-                            <a href="#"><img src="/img/photo/6.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/photo/6.jpg" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
                         <div class="card">
                             <h4>Lorem ipsum.</h4>
                             <p>29.11.2016</p>
-                            <a href="#"><img src="/img/photo/7.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/photo/7.jpg" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
                         <div class="card">
                             <h4>Lorem ipsum.</h4>
                             <p>19.10.2016</p>
-                            <a href="#"><img src="/img/photo/8.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/photo/8.jpg" alt=""></a>
                         </div>
                     </div>
                 </div>
