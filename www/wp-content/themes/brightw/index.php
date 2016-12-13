@@ -15,7 +15,8 @@
 get_header(); ?>
 
 	   <div class="content">
-        <div class="container">
+        <div class="container-fluid">
+<!--
             <div class="slogan">
                 <h1>Welcome! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio iste laboriosam ab dignissimos distinctio aliquid.</h1>
             </div>
@@ -123,6 +124,48 @@ get_header(); ?>
                 <li><a href="#">5</a></li>
                 <li><a href="#">&raquo;</a></li>
             </ul>
+-->
+       
+       <div id="carousel" class="carousel slide">
+           <ol class="carousel-indicators">
+               <li class="active" data-target="#carousel" data-slide-to="0"></li>
+               <li data-target="#carousel" data-slide-to="1"></li>
+               <li data-target="#carousel" data-slide-to="2"></li>
+           </ol>
+           <div class="carousel-inner">
+               <div class="item active">
+                   <img src="<?php bloginfo( 'stylesheet_directory' )?>/img/slider/slide1.jpg" alt="">
+                   <div class="carousel-caption">
+                       <h3>Слайд №1</h3>
+                       <p>Весілля Андрія та Оксани</p>
+                   </div>
+               </div>
+               <div class="item">
+                   <img src="<?php bloginfo( 'stylesheet_directory' )?>/img/slider/slide2.jpg" alt="">
+                   <div class="carousel-caption">
+                       <h3>Слайд №2</h3>
+                       <p>Весілля Івана і Наталки</p>
+                   </div>
+               </div>
+               <div class="item">
+                   <img src="<?php bloginfo( 'stylesheet_directory' )?>/img/slider/slide1.jpg" alt="">
+                   <div class="carousel-caption">
+                       <h3>Слайд №3</h3>
+                       <p>Весілля Андрія та Оксани</p>
+                   </div>
+               </div>
+           </div>
+           <a href="#carousel" class="left carousel-control" data-slide="prev">
+               <span class="glyphicon glyphicon-shevron-left"></span>
+           </a>
+           <a href="#carousel"  class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-shevron-right"></span>
+           </a>
+           
+       </div>
+       
+
+       
         </div>
     </div>
 <?php

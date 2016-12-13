@@ -15,19 +15,15 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="UTF-8">
-<title>Моє портфоліо</title>
+<title><?php bloginfo( 'name' ) ?></title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' )?>/css/bootstrap.css">
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' )?>">
-
 <?php wp_head(); ?>
 </head>
 
 <body>
-    <?php bloginfo( 'stylesheet_directory' )?>
+
  <header>
         <nav class="navbar navbar-default menu " role="navigation">
             <div class="container">
@@ -39,13 +35,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/logo1.png" alt=""></a>
+                    <a class="navbar-brand" href="<?php echo home_url() ?>"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/logo1.png" alt=""></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active-link"><a href="#">Головна</a></li>
+                        <li class="active-link"><a href="<?php echo home_url() ?>">Головна</a></li>
                         <li><a href="#">Портфоліо</a></li>
                         <li><a href="#">Блог</a></li>
                         <li><a href="#">Про мене</a></li>
