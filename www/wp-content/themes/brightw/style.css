@@ -30,6 +30,7 @@ header {
     border: 0;
     box-shadow: 0 0 5px rgba(0, 0, 0, 19);
     padding: 15px 0 15px 0;
+    
 }
 
 .menu .container {
@@ -85,16 +86,21 @@ header {
     margin: 5px;
     border: 1px solid #78769d;
     padding: 5px;
+    height: 270px;
+      
 }
 
-.card img {
+/*
+.card .img {
     box-shadow: 0 0 5px rgba(0, 0, 0, 19);
 }
 
-.card img:hover {
+.card .img:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 70);
     transition: all 0.5s;
 }
+*/
+
 
 .nav-pager {
     text-align: center;
@@ -252,3 +258,11 @@ header {
     }
 }
 
+
+.card-row {
+
+}
+
+.content-row {
+    height: 270px;
+}
