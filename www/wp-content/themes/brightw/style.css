@@ -38,6 +38,7 @@ header {
 }
 
 .navbar-brand {
+    height: 51px;
     padding-right: 80px;
 }
 

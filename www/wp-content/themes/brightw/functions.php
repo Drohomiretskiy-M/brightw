@@ -13,4 +13,6 @@ add_action('wp_enqueue_scripts','theme_name_scripts');
 
 //Мініатюра
 add_theme_support( 'post-thumbnails' );
+
+register_nav_menu("menu", 'Основне меню');
 ?>
