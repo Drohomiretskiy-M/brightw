@@ -12,6 +12,9 @@
 ?>
 
   <footer>
+          
+       
+       
         <hr>
         <div class="copyrigt">
             &copy; Misha Drohomiretskiy 2016

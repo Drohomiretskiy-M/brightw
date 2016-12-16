@@ -51,7 +51,7 @@
                             <a href="https://www.facebook.com/drohomiretskiy"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/facebook.png" alt=""></a>
                         </li>
                         <li>
-                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/twitter.png" alt=""></a>
+                            <a href="https://vk.com/weding_foto"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/vk.png" alt=""></a>
                         </li>
                         <li>
                             <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/rss.png" alt=""></a>

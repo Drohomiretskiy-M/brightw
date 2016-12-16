@@ -46,7 +46,9 @@ header {
     position: relative;
     top: -42px;
 }
-
+.navbar-default{
+     height: 81px;
+}
 .navbar-default .navbar-nav > li > a {
     color: #8d8c8c;
     font-size: 18px;
@@ -75,7 +77,9 @@ header {
 }
 
 .icons a img:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 70);
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 70);*/
+    height: 28px;
+    width: 29px;
 }
 
 .slogan>h1 {
