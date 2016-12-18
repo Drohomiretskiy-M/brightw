@@ -27,7 +27,6 @@
  <header>
         <nav class="navbar navbar-default menu " role="navigation">
             <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
@@ -37,13 +36,10 @@
                     </button>
                     <a class="navbar-brand" href="<?php echo home_url() ?>"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/logo1.png" alt=""></a>
                 </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-<!--                       Меню-->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <!--Меню-->
                        <?php wp_nav_menu(array('theme_location'=>'menu', 'menu_class'=>'nav navbar-nav', 'container'=>'false')); ?>
-                  
-                    <ul class="nav navbar-nav navbar-right icons">
+                     <ul class="nav navbar-nav navbar-right icons">
                         <li>
                             <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/google_plus.png" alt=""></a>
                         </li>
@@ -53,20 +49,9 @@
                         <li>
                             <a href="https://vk.com/weding_foto"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/vk.png" alt=""></a>
                         </li>
-                        <li>
-                            <a href="#"><img src="<?php bloginfo( 'stylesheet_directory' )?>/img/rss.png" alt=""></a>
-                        </li>
-
                     </ul>
                 </div>
-                <!-- /.navbar-collapse -->
                 <i class="glyphicon glyphicon-globe globe"></i>
-
             </div>
-
-
-            <!-- /.container-fluid -->
         </nav>
-
-
-    </header>
+</header>

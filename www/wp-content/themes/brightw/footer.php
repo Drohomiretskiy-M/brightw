@@ -11,17 +11,13 @@
 
 ?>
 
-  <footer>
-          
-       
-       
-        <hr>
+<footer>
+    <hr>
         <div class="copyrigt">
             &copy; Misha Drohomiretskiy 2016
         </div>
-
-        <br>
-    </footer>
+     <br>
+</footer>
 
 <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>

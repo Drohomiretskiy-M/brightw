@@ -38,7 +38,7 @@ header {
 }
 
 .navbar-brand {
-    height: 51px;
+    min-height: 51px;
     padding-right: 80px;
 }
 
@@ -47,7 +47,7 @@ header {
     top: -42px;
 }
 .navbar-default{
-     height: 81px;
+     min-height: 81px;
 }
 .navbar-default .navbar-nav > li > a {
     color: #8d8c8c;
@@ -59,8 +59,6 @@ header {
     border-bottom: 1px solid #78769d;
     color: #8d8c8c;
 }
-
-
 
 .globe {
     font-size: 25px;
@@ -95,18 +93,6 @@ header {
       
 }
 
-/*
-.card .img {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 19);
-}
-
-.card .img:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 70);
-    transition: all 0.5s;
-}
-*/
-
-
 .nav-pager {
     text-align: center;
 }
@@ -116,6 +102,7 @@ header {
     color: #b5b3b3;
 }
 
+/*
 .pagination > .active > a,
 .pagination > .active > span,
 .pagination > .active > a:hover,
@@ -126,6 +113,7 @@ header {
     background-color: #fff;
     border: 1px solid #78769d;
 }
+*/
 
 .copyrigt {
     text-align: center;
@@ -189,6 +177,9 @@ header {
         transition: all 0.5s;
         text-align: center;
     }
+    .navbar-default{
+     min-height: 48px;
+}
     .navbar-default .navbar-nav:not(.icons) > li > a {
         border-bottom: 0;
     }
@@ -248,6 +239,10 @@ header {
     .navbar-brand img {
         top: -20px;
     }
+    menu{
+        display: block;
+        position: absolute;
+    }
 }
 
 
@@ -261,11 +256,6 @@ header {
     .slogan h1 {
         font-size: 3em;
     }
-}
-
-
-.card-row {
-
 }
 
 .content-row {
