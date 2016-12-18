@@ -22,9 +22,11 @@
 
         <br>
     </footer>
-    <script src="http://code.jquery.com/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/main.js"></script>	
+
+<script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
+
 
 <?php wp_footer(); ?>
 
