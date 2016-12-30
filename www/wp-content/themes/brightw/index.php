@@ -12,13 +12,13 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 ">
                     <div class="card">
                         <h4><?php the_title() ?></h4>
-                        <p>
-                            <?php the_time( 'j M Y в H:i'); ?> </p>
-                        <a href="#">
+                        <p><?php the_time( 'j M Y в H:i'); ?> </p>
+                        <a href="<?php the_permalink(); ?>">
                             <span class="img">
                                 <?php 
                                 if (has_post_thumbnail()){
                                     the_post_thumbnail();
+                                    
                                 }   
                                 else {
                                 ?>
@@ -27,9 +27,11 @@
                                 }
                             ?>
                         </span></a>
-                        <!--<?php the_content() ?>-->
+                        <p><?php the_author(); ?> </p>
+                        
                     </div>
-                </div>
+                    
+                               </div>
             </div>
             <?php endwhile; ?>
             <?php else: ?>
@@ -64,7 +66,7 @@
 
 
 
-Слайдер/////
+
 <!--
 <div id="carousel" class="carousel slide">
            <ol class="carousel-indicators">
