@@ -119,6 +119,11 @@ header {
     text-align: center;
 }
 
+.entry-content h3 {
+    background-color: aqua;
+}
+
+
 @media only screen and (max-width: 1200px) {
     .slogan h1 {
         font-size: 2.5em;
