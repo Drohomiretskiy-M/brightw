@@ -20,7 +20,7 @@
 
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php brightw_posted_on(); ?>
+
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
@@ -28,6 +28,7 @@
 
 	<div class="entry-content">
 		<?php
+        echo "dsffsdf";
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
 				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'brightw' ), array( 'span' => array( 'class' => array() ) ) ),
@@ -42,6 +43,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php brightw_entry_footer(); ?>
+	
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

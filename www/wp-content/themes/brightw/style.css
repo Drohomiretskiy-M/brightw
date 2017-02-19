@@ -47,7 +47,7 @@ header {
     top: -42px;
 }
 .navbar-default{
-     min-height: 81px;
+     min-height: 80px;
 }
 .navbar-default .navbar-nav > li > a {
     color: #8d8c8c;
@@ -118,10 +118,11 @@ header {
 .copyrigt {
     text-align: center;
 }
-
-.entry-content h3 {
-    background-color: aqua;
+.contacts {
+   background-color: aqua;
+    height: 300px;
 }
+
 
 
 @media only screen and (max-width: 1200px) {
@@ -265,4 +266,16 @@ header {
 
 .content-row {
     height: 270px;
+}
+
+
+
+
+
+.contactsPage {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
 }
